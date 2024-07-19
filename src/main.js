@@ -119,6 +119,7 @@ async function handleLoad() {
       loader.classList.remove('loader');
       if (searchParams.page === searchParams.max_Page) {
           endCollection();
+          btnHidden(loadMoreBtn);
          loadMoreBtn.removeEventListener('click', handleLoad); 
       }
   }
