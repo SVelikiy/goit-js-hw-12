@@ -11,7 +11,6 @@ const hiddenClass = 'is-hidden';
 export const list = document.querySelector('.gallery');
 
 
-
 searchForm.addEventListener('submit', handlerSubmit);
 loadMoreBtn.addEventListener('click', handleLoad);
 
